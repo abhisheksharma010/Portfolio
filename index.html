@@ -1,312 +1,391 @@
+    
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abhishek Sharma</title>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
-      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
-      crossorigin="anonymous"
-    ></script>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
-    <link
-      rel="icon"
-      href="https://e1.pxfuel.com/desktop-wallpaper/880/250/desktop-wallpaper-pin-on-anime-anime-boy-icon-thumbnail.jpg"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/f7723f3426.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <!-- Introduction -->
-    <section class="intro">
-      <div class="headingg">
-        <div class="modee">
-         <p> Abhishek Sharma</p>
-          <div>
-            <input type="checkbox" class="checkbox" id="checkbox">
-            <label for="checkbox" class="checkbox-label">
-              <i class="fas fa-moon"> </i>
-              <i class="fas fa-sun"></i>
-              <span class="ball"></span>
-            </label>
-          </div>
-        </div>
-        <div class="navb">
-          <ul>
-            <li><a href="#intro">Home</a></li>
-            <li>
-              <a
-                href="#about"
-                >About</a
-              >
-            </li>
-            <!-- <li><a href="#skills-s">Skills</a> </li> -->
-            <li><a href="#project">Projects</a> </li>
-            <li><a href="#service">Service</a> </li>
-     
-          </ul>
-          <button class="special"> <a href="#contact">Contact</a></button>
-        </div>
-      </div>
-      <div class="intro-about">
-        <div class="bio">
-          <h1 class="big-heading">
-            Hy! I Am
-            <p>Abhishek Sharma</p>
-          </h1>
-          <div class="styling">
-            <h4 class="iam">and I am</h4>
-            <h4 class="text-write"></h4>
-          </div>
-          <button class="hire"> <a href="#contact">Hire me</a></button>
-        </div>
 
-        <div>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx_TDj4vTI6wnwTwPMY36mJTYsxrjni3U_Lw&usqp=CAU"
-            alt=""
-          />
-          <div></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Landing Page by Code4education</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <p class="logo-w"> <span>A</span>bhishek Sharma </p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative">Hell0</h2>
+                    <h1 class="main-head">I am  Abhishek Sharma</h1>
+                
+                    
+                    <p class="type-one">I am  <span class="typed-text"></span><span class="cursor blink">&nbsp;</span></p>
+                    <div class="mt-5">
+                        <a class="main-btn primary-btn" href="#contact">Hire Me</a>
+                        <a class="main-btn secondary-btn ms-4" href="Try (1).pdf" download="true">Resume</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="top-right-img">
+                        <img decoding="async" src="images/home-right.webp" class="img-fluid">
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="social-media">
-       <a href="https://github.com/abhisheksharma886"> <i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/abhishek--sharma--/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://twitter.com/explore"><i class="fa-brands fa-square-twitter"></i></a>
-      </div>
     </section>
+    <!-- Banner section exit -->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img decoding="async" src="images/about-us.webp" class="img-fluid" alt="About Us">
+                </div>
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <h3>About me</h3>
+                    I am Abhishek Sharma . I am passionate and dedicated student currently
+                    pursuing my studies at GLA University. I am currently in my third
+                    year, majoring in computer science. I possess a solid understanding of DSA and OOP concepts. An adaptable Android Developer
+                    skilled in Kotlin and Hybrid App Development with Flutter. I am an
+                    enthusiastic learner with a passion for exploring new technologies. I
+                    am actively seeking new opportunities where I can apply my skills and
+                    contribute to innovative projects. <br>  <a  href="Try (1).pdf" download="true" class="main-btn primary-btn mt-4"> Resume </a>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                          Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tabs" id="skills">
+                        <ul>
+                          <li>
+                            <span>Programing Language</span> <br />
+                            Java and Python  
+                          </li>
+                          <li>
+                            <span>Mobile App Development</span> <br />
+                             Flutter , Kotlin in Android Devlopment <br>
+                              Framework - Android Studio
+                          </li>
+                          <li>
+                            <span>Web Development</span> <br />
+                              Html,Css, JavaScript and React js
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                          <li>
+                            <span>ANDROID Development</span> <br />
+                            1 year
+                          </li>
+                          <li>
+                            <span>Flutter Development</span> <br />
+                            6 months
+                          </li>
+                          <li>
+                            <span>Web Development</span> <br />
+                           2 years
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                          <li>
+                            <span>B.tech </span> <br />
+                            GLA University (2021 -2025)
+                          </li>
+                          <li>
+                            <span>Intermediate</span> <br />
+                            Prasad Public School (2019-2021)
+                          </li>
+                          <li>
+                            <span>High School</span> <br />
+                            Prasad Public School (2017-2019)
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+              
+
+                </div>
+            </div>
+               
+        </div>
+    </section>
+    <!-- About section exit -->
+
+
+    <!-- portfolio Section -->
+    <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-left mb-md-5 mb-2">
+                    <h2>QUALITY WORK <br>RECENTLY DONE PROJECT</h2>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one"
+                            aria-selected="true">Popular</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two"
+                            type="button" role="tab" aria-controls="pills-two" aria-selected="true">Latest</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three"
+                            aria-selected="true">Upcoming</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-one" role="tabpanel"
+                        aria-labelledby="pills-one-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <a href="https://github.com/abhisheksharma886/Moviee">
+                                    <img decoding="async" src="./images/movie.jpg" class="img-fluid iknow w-100 h-10">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                    </a>
+                                </div>
+                                <h5 class="mb-0 mt-4">Moviee</h5>
+                                <p>Movie reviewing website</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="https://github.com/abhisheksharma886/Expenses">
+                                    <div class="portfolio-img">
+                                        <img decoding="async" src="https://assets.gqindia.com/photos/608c135f6e6a489a62cd254d/16:9/pass/Apps%20for%20finance%20management.jpg" class="img-fluid w-100 h-10">
     
-    <section id="about">
-     
-      <div>
-        <img
-          src="https://fsb.zobj.net/crop.php?r=6P0wqkGsxpYlGjHyqCS8t1YjvgP_PQtCj8aeEX3Ax0EQWNw0HluksX0bcAEPgkJqEGmt7i1OvqVnNtj264ql5egCqk1ccf6f9FB811dOn9qEWBy17QFwx4FPkU0V_Xg_e3pYJ51R3rF4ZrEKnPp7LkKp6Jv8DRiOgfWPY_QOMRr5I06ExhQeTe6Gq3k"
-          alt=""
-        />
-        <h2>Who Am I?</h2>
-        <p>
-          I am Abhishek Sharma . I am passionate and dedicated student currently
-          pursuing my studies at GLA University. I am currently in my second
-          year, majoring in computer science An adaptable Android Developer
-          skilled in Kotlin and Hybrid App Development with Flutter. I am an
-          enthusiastic learner with a passion for exploring new technologies. I
-          am actively seeking new opportunities where I can apply my skills and
-          contribute to innovative projects.
-        </p>
-        <div class="tab-titles">
-          <p class="tab-links active-link" onclick="opentab('skills')">
-            Skills
-          </p>
-          <p class="tab-links" onclick="opentab('experience')">Experience</p>
-          <p class="tab-links" onclick="opentab('education')">Education</p>
+                                        <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                    </div>
+                                </a>
+                
+                                <h5 class="mb-0 mt-4">Expense Tracker</h5>
+                                <p>Expense Trackig app with firebase as backend </p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="https://github.com/abhisheksharma886/News-app">
+                                <div class="portfolio-img ">
+                                    <img decoding="async" src="https://wallpapers.com/images/featured/breaking-news-background-b1t1pf5cek94pwtk.jpg" class="img-fluid w-100 h-10">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                            </a>
+                                <h5 class="mb-0 mt-4">News App</h5>
+                                <p>Android news app</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="https://github.com/abhisheksharma886/QuizApp">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="https://img.freepik.com/premium-vector/quiz-vector-pop-style-illustration-with-megaphone-yellow-background_194782-902.jpg?w=2000" class="img-fluid w-100 h-10">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                            </a>
+                                <h5 class="mb-0 mt-4">Quiz App</h5>
+                                <p>Flutter with quiz api</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="https://abhisheksharma886.github.io/Drum-Kit-Completed/">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="https://m.media-amazon.com/images/I/81p-arHRxAL.jpg" class="img-fluid w-100 h-10">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                            </a>
+                                <h5 class="mb-0 mt-4">Drum Kit</h5>
+                                <p>Mini Project </p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="https://github.com/abhisheksharma886/Restaurant">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="https://www.daysoftheyear.com/wp-content/uploads/national-fast-food-day.jpg" class="img-fluid w-100 h-10">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                            </a>
+                                <h5 class="mb-0 mt-4">Restaurat Menu App</h5>
+                                <p>All items of restaurat with their price</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="https://staticg.sportskeeda.com/editor/2022/05/96909-16537647284938-1920.jpg" class="img-fluid w-100 h-10">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4">Ace Anime</h5>
+                                <p>Anime Streaming website</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/05/14190804/e-commerce-.jpg" class="img-fluid w-100 h-10">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4">E-Commerce</h5>
+                                <p>Website and App both</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <div class="tab-contents active-tabs" id="skills">
-          <ul>
-            <li>
-              <span>Flutter Development</span> <br />
-              Hybrid Apps
-            </li>
-            <li>
-              <span>Android Development</span> <br />
-               Android apps
-            </li>
-            <li>
-              <span>Web Development</span> <br />
-                Responsive Website
-            </li>
-          </ul>
-        </div>
-        <div class="tab-contents" id="experience">
-          <ul>
-            <li>
-              <span>ANDROID Development</span> <br />
-              1 year
-            </li>
-            <li>
-              <span>Flutter Development</span> <br />
-              6 months
-            </li>
-            <li>
-              <span>Web Development</span> <br />
-             2 years
-            </li>
-          </ul>
-        </div>
-        <div class="tab-contents" id="education">
-          <ul>
-            <li>
-              <span>B.tech </span> <br />
-              GLA University (2021 -2025)
-            </li>
-            <li>
-              <span>Intermediate</span> <br />
-              Prasad Public School (2019-2021)
-            </li>
-            <li>
-              <span>High School</span> <br />
-              Prasad Public School (2017-2019)
-            </li>
-          </ul>
-        </div>
-      </div>
     </section>
-   
-    <section id="project">
-      <h1> Projects</h1>
-      <div class="projects">
-        <div class="project-item">
-          <figure>
-            <img
-              src="https://martech.org/wp-content/uploads/2017/09/spotify-logo-1920x1080.jpg"
-              alt=""
-            />
-            <figcaption>
-              <h2>Spotify Clone</h2>
-              <p>
-              Clone of Spotify using HTML and CSS
-              </p>
-              <button class="hire"> <a href="https://abhisheksharma886.github.io/Spotify/"> View </a></button>
-            </figcaption>
-          </figure>
+    <!-- portfolio Section exit -->
+    
+    
+    <!-- Services section -->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h2>SERVICE OFFERS</h2>
+                    <p>I possess extensive experience in various technologies, excelling in web development,  <br
+                            class="d-none d-lg-block">
+                        android development and  flutter development.</p>
+                </div>
+               
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3 h-100">
+                        <div>
+                            <img decoding="async" src="https://icones.pro/wp-content/uploads/2021/04/icone-robot-android-violet.png" class="h-2">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Android Devlopment</h5>
+                        <p>I am an experienced Android developer with a strong portfolio of over 16 apps created using Kotlin, showcasing my expertise in building high-quality and innovative mobile applications.</p>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-sm-6 mb-4 ">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3 h-100">
+                        <div>
+                            <img decoding="async" src="./images/services-img/mouse.webp">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Web Devlopment</h5>
+                        <p>I am highly skilled in frontend development, proficiently utilizing HTML, CSS, Bootstrap, JavaScript, and React to create responsive and dynamic web applications.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3 h-100">
+                        <div>
+                            <img decoding="async" src="./images/services-img/seo.webp" class="h-2">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Flutter Devlopment</h5>
+                        <p>I have extensive experience in Flutter app development, having created over 12 Flutter apps. My deep understanding of Flutter and its libraries enables me to deliver robust and feature-rich cross-platform applications.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="project-item">
-          <figure>
-            <img
-              src="https://m.media-amazon.com/images/I/41NnZYXNvBL._AC_UF1000,1000_QL80_.jpg"
-              alt=""
-            />
-            <figcaption>
-              <h2>Drum Kit</h2>
-              <p>
-                Site here you can play sound of different instrumetn . Created by using HTML, CSS and Javascipt.
-              </p>
-              <button class="hire"><a href="https://abhisheksharma886.github.io/Drum-Kit-Completed/">View</a></button>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="project-item">
-          <figure>
-            <img
-              src="https://repository-images.githubusercontent.com/419507496/cfcc1354-86ac-432e-823a-da56c21302ba"
-              alt=""
-            />
-            <figcaption>
-              <h2>Expense Tracker</h2>
-              <p>
-                Expense Tracker app in  which you can store your daily expense and categories in 4 category.Tech Stack - Flutter, Firebase
-              </p>
-              <button class="hire"><a href="https://github.com/abhisheksharma886/Expenses">View </a></button>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="project-item">
-          <figure>
-            <img
-              src="https://www.baika8.com/wp-content/uploads/2023/05/Movies-Reviews-9.png"
-              alt=""
-            />
-            <figcaption>
-              <h2>Movie Review</h2>
-              <p>
-                Movie Reviewing Website to get details about movie. Tech Stack - HTML,CSS,Movie review api and Javascripy 
-              </p>
-              <button class="hire"> <a href="https://abhisheksharma886.github.io/Moviee/"> View</a></button>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="project-item">
-          <figure>
-            <img
-              src="https://img.freepik.com/premium-vector/quiz-vector-pop-style-illustration-with-megaphone-yellow-background_194782-902.jpg?w=2000"
-              alt=""
-            />
-            <figcaption>
-              <h2>Quiz App</h2>
-              <p>
-                Quiz App  created using Flutter.There Mcqs Questions and in the end of the quiz thier result of quiz.
-              </p>
-              <button class="hire"><a href="https://github.com/abhisheksharma886/QuizApp"> View</a>
-              </button>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
     </section>
-    <section id="service">
-      <h1>Service</h1>
-      <!-- <div></div> -->
-      <div class="serviced">
-        <figure>
-          <img
-            src="https://codersera.com/blog/wp-content/uploads/2021/11/Single-Page-Website-vs-Multi-Page-Website.jpeg"
-            alt=""
-          />
-          <figcaption>
-            <h2>Website</h2>
-            <p>
-             Responsive Website . Language - Html, Css, Javascipt
-            </p>
-            <button class="special"> Hire me<a href=""></a> </button>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="https://play-lh.googleusercontent.com/5e7z5YCt7fplN4qndpYzpJjYmuzM2WSrfs35KxnEw-Ku1sClHRWHoIDSw3a3YS5WpGcI"
-            alt=""
-          />
-          <figcaption>
-            <h2>Hybrid App</h2>
-            <p>
-              Hybrid mobile apps for both Ios and Android. TachStack - Flutter
-            </p>
-            <button class="special"> Hire me<a href=""></a> </button>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="https://img.freepik.com/free-icon/android_318-258869.jpg"
-            alt=""
-          />
-          <figcaption>
-            <h2>Android App</h2>
-            <p>
-              Mobile apps for Android with Backend support.
-            </p>
-            <button class="special"> Hire me<a href=""></a> </button>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-    <section id="contact">
-      <div class="contacts">
-        <div class="links">
-          <h1>Contact me</h1>
-          <i class="fa-solid fa-envelope"></i><span>abhisheksharma32344@gmail.com</span><br>
-          <i class="fa-solid fa-phone"></i><span> 7078896649</span>
-          <div class=" con">
-            <a href="https://github.com/abhisheksharma886"> <i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/abhishek--sharma--/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://twitter.com/explore"><i class="fa-brands fa-square-twitter"></i></a>
-            <br>
-            <button class="hire"> <a href="https://t.co/ekKt1D4MqO">Resume</a> </button>
-          </div>
+    <!--Services section exit -->
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 newsletter text-center px-4">
+                    <div>
+                        <h3 class="text-white">Contact Me</h3>
+                        <p class="text-white">
+                            Please feel free to reach out to me using the contact details provided below. <br> I am more than happy to discuss any opportunities, projects, or collaborations in a professional manner.</p>
+
+                        <form class="row g-3 justify-content-center mt-4">
+                            <div class="col col-sm-6 col-lg-4">
+                                <input type="email" class="form-control" placeholder="Email address">
+                            </div>
+                            <div class="col col-auto">
+                                <button type="submit" class="main-btn secondary-btn border-white mb-3">Get
+                                    Started</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="message">
-          <input type="text" placeholder=" Name"> <br>
-          <input type="text" placeholder=" Email"><br>
-         
-          <textarea name="" id="" cols="60" rows="10" placeholder="  Message"></textarea><br>
-        <button class="special"> Contact </button></div>
-      </div>
-      
-    <img class="final" src="wave.svg" alt="">
+        <div class="container mt-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <p class="logo-w"> <span>A</span>bhishek Sharma </p>
+                    </div>
+                    <div class="my-4 social-icons">
+                        <h5>Get in touch</h5>
+                        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                            <li><a href="https://github.com/abhisheksharma886"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://twitter.com/___Introvert_"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a></li>
+                            <li class="leetcode"><a href="https://leetcode.com/abhisheksharma32344/"><i> <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/leetcode_logo_icon_145113.png"  alt=""></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
     </section>
-  </body>
-  <script>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+<!-- Custom Js Link -->
+<script src="script.js"></script>
+<script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
     function opentab(tabname) {
@@ -320,8 +399,7 @@
       document.getElementById(tabname).classList.add("active-tabs");
     }
   </script>
-  <script src="script.js"></script>
-  <script
+    <script
     src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"
@@ -336,4 +414,6 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"
   ></script>
+ 
 </html>
+
